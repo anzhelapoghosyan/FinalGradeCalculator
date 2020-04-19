@@ -1,0 +1,33 @@
+h1 {
+	color: rgb(0, 94, 97);
+	font-size: 26px;
+}
+
+body {
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+}
+
+span.gradePercentage,span.currentGrade {
+	font-size: 20px;
+	font-style: bold;
+}
+
+input{
+	width: 40px
+}
+
+#class {
+	float: left;
+	width: 50%;
+}
+
+#grades {
+	float: right;
+	width: 50%;
+}
+
+input:hover {
+  cursor: pointer;
+	background-color:darkseagreen
+}

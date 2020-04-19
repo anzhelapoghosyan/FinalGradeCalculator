@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+		<h1>CSE120 Intro to the World of Programming</h1>
+		<div id = "class">
+			<h4>Distribution of grades:</h4>
+			Participation - <span class = "gradePercentage" id = "participationGrade"> 10</span>%</br>
+			Quizzes - <span class = "gradePercentage" id = "quizzesGrade"> 20</span>%</br>
+			Project Milestone 1 - <span class = "gradePercentage" id = "PM1Grade"> 20</span>%</br>
+			Project Milestone 2 - <span class = "gradePercentage" id = "PM2Grade"> 20</span>%</br>
+			Final Project - <span class = "gradePercentage" id = "finalProjGrade"> 30</span>%</br>
+		</div id = "class">
+
+		<div id = "grades">
+			<h4>My grades:</h4>
+			Participation - <input type = "number" id = "currParticipation" onkeyup = "checkValidity()"></br>
+			Quizzes - <input type = "number" id = "currQuizzes" onkeyup = "checkValidity()"></br>
+			Project Milestone 1 - <input type = "number" id = "currProjMilestone1" onkeyup = "checkValidity()"></br>
+			Project Milestone 2 - <input type = "number" id = "currProjMilestone2" onkeyup = "checkValidity()"></br>
+			Final Project - <input type = "number" id = "currFinProj" onkeyup = "checkValidity()"></br>
+		</div id = "grades">
+
+		<div id = "finalGrades">
+			<h1>Want to know your final grade?</h1>
+			<h4>Click here to find out:</h4>
+			<button onclick="calculateGrade()">Calculate</button>
+		</div id = "finalGrades">
+  </body>
+</html>
